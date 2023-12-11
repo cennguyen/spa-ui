@@ -12,14 +12,10 @@ import store from './stores/main'
 
 const Root = () => {
   const SKIN_DEFAULT = 'default'
-  // Let update when updating template on Database
-  // const SKIN_DEFAULT = process.env.NODE_ENV !== 'production' ? 'pa' : ''
-  
+
   const { data, isLoading, isError } = useGetTemplateQuery(SKIN_DEFAULT);
   const themeName = data?.globalAttribute?.themeName;
-  console.log(data,"Debug data");
-  const [theme, setTheme] = useState('default')
-  // const [language, setLanguage] = useState(getLocale())
+  const [theme, setTheme] = useState('default');
 
   useEffect(() => {
     if (themeName) {
@@ -38,11 +34,6 @@ const Root = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [],
   )
-
-  // const changeLanguage = useCallback(
-  //     (newLanguage) => setLanguage(newLanguage),
-  //     [],
-  // )
 
   if (isLoading || isError) {
     return (
