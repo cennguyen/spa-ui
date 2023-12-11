@@ -1,0 +1,1401 @@
+{
+    "template": {
+        "templateType": "",
+        "headerContainer": {
+            "formal": [
+                {
+                    "componentName": "LogoComponent",
+                    "gridColumn": 3
+                },
+                {
+                    "componentName": "LoginComponent",
+                    "gridColumn": 9
+                },
+                {
+                    "componentName": "NavigationComponent",
+                    "gridColumn": 6
+                },
+                {
+                    "componentName": "SwitchModeComponent",
+                    "gridColumn": 1
+                },
+                {
+                    "componentName": "RegionalComponent",
+                    "gridColumn": 1
+                },
+                {
+                    "componentName": "SettingsComponent",
+                    "gridColumn": 1
+                },
+                {
+                    "componentName": "ResultComponent",
+                    "gridColumn": 1
+                },
+                {
+                    "componentName": "LocaleComponent",
+                    "gridColumn": 1
+                },
+                {
+                    "componentName": "HelpComponent",
+                    "gridColumn": 1
+                },
+                {
+                    "componentName": "BannerScrollBarComponent",
+                    "gridColumn": 0
+                }
+            ]
+        },
+        "bodyContainer": {
+            "asiaView": {
+                "homePageContainer": {
+                    "topContainer": [],
+                    "leftContainer": [],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "OddsPageComponent"
+                        }
+                    ]
+                },
+                "sportPageContainer": {}
+            },
+            "compactView": {
+                "betBuilderPageContainer": {
+                    "fixedHeader": true,
+                    "mainContainer": [
+                        {
+                            "componentName": "BetBuilderComponent"
+                        },
+                        {
+                            "componentName": "LoginModalComponent"
+                        }
+                    ]
+                },
+                "homePageContainer": {
+                    "topContainer": [],
+                    "leftContainer": [
+                        {
+                            "componentName": "LeftSideBarComponent"
+                        }
+                    ],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "LandingPageComponent"
+                        },
+                        {
+                            "componentName": "LoginModalComponent"
+                        }
+                    ]
+                },
+                "sportPageContainer": {
+                    "fixedHeader": true,
+                    "topContainer": [
+                        {
+                            "componentName": "Announcements"
+                        }
+                    ],
+                    "leftContainer": [
+                        {
+                            "componentName": "LeftSideBarComponent"
+                        }
+                    ],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "OddsDelayBannerComponent"
+                        },
+                        {
+                            "componentName": "SearchBoxComponent"
+                        },
+                        {
+                            "componentName": "ViewOptionsComponent"
+                        },
+                        {
+                            "componentName": "OddsPageComponent"
+                        },
+                        {
+                            "componentName": "LoginModalComponent"
+                        }
+                    ]
+                },
+                "vsPageContainer": {
+                    "fixedHeader": true,
+                    "topContainer": [],
+                    "leftContainer": [],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "VsPageComponent"
+                        },
+                        {
+                            "componentName": "LoginModalComponent"
+                        }
+                    ]
+                },
+                "casinoPageContainer": {
+                    "fixedHeader": true,
+                    "topContainer": [
+                        {
+                            "componentName": "CasinoSliderComponent"
+                        }
+                    ],
+                    "leftContainer": [
+                        {
+                            "componentName": "LeftCasinoComponent"
+                        },
+                        {
+                            "componentName": "CasinoGameWindowComponent"
+                        },
+                        {
+                            "componentName": "LiveCasinoGameWindowComponent"
+                        },
+                        {
+                            "componentName": "RequiredLoginComponent"
+                        }
+                    ],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "RightCasinoComponent"
+                        },
+                        {
+                            "componentName": "LoginModalComponent"
+                        }
+                    ]
+                },
+                "liveCasinoPageContainer": {
+                    "fixedHeader": true,
+                    "topContainer": [
+                        {
+                            "componentName": "LiveCasinoSliderComponent"
+                        }
+                    ],
+                    "leftContainer": [
+                        {
+                            "componentName": "LeftLiveCasinoComponent"
+                        },
+                        {
+                            "componentName": "LiveCasinoGameWindowComponent"
+                        },
+                        {
+                            "componentName": "RequiredLoginComponent"
+                        },
+                        {
+                            "componentName": "CasinoGameWindowComponent"
+                        }
+                    ],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "RightCasinoComponent"
+                        },
+                        {
+                            "componentName": "LoginModalComponent"
+                        }
+                    ]
+                },
+                "accountPageContainer": {
+                    "fixedHeader": true,
+                    "topContainer": [],
+                    "leftContainer": [
+                        {
+                            "componentName": "AccountSideBarComponent"
+                        }
+                    ],
+                    "rightContainer": [
+                        {
+                            "componentName": "AccountRightComponent"
+                        }
+                    ],
+                    "mainContainer": [
+                        {
+                            "componentName": "AccountMenuContentComponent"
+                        }
+                    ]
+                },
+                "changePasswordContainer": {
+                    "fixedHeader": false,
+                    "topContainer": [],
+                    "leftContainer": [],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "ChangePasswordPageComponent"
+                        }
+                    ]
+                },
+                "activeLinkContainer": {
+                    "fixedHeader": false,
+                    "topContainer": [
+                        {
+                            "componentName": "Announcements"
+                        }
+                    ],
+                    "leftContainer": [],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "ActiveLinkComponent"
+                        }
+                    ]
+                },
+                "promotionContainer": {
+                    "fixedHeader": true,
+                    "topContainer": [
+                        {
+                            "componentName": "Announcements"
+                        }
+                    ],
+                    "leftContainer": [],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "PromotionsComponent"
+                        },
+                        {
+                            "componentName": "LoginModalComponent"
+                        }
+                    ]
+                },
+                "prestigeClubPageContainer": {
+                    "fixedHeader": true,
+                    "topContainer": [],
+                    "leftContainer": [],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "PrestigeClubComponent"
+                        }
+                    ]
+                },
+                "leaderboardContainer": {
+                    "fixedHeader": true,
+                    "topContainer": [],
+                    "leftContainer": [],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "LeaderboardComponent"
+                        },
+                        {
+                            "componentName": "LoginModalComponent"
+                        }
+                    ]
+                },
+                "promotionSurveyContainer": {
+                    "fixedHeader": false,
+                    "topContainer": [],
+                    "leftContainer": [],
+                    "rightContainer": [],
+                    "mainContainer": [
+                        {
+                            "componentName": "PromotionSurveyComponent"
+                        }
+                    ]
+                }
+            }
+        },
+        "footerContainer": {
+            "formal": [
+                {
+                    "componentName": "MenuFooterComponent",
+                    "gridColumn": 12
+                },
+                {
+                    "componentName": "AboveFooterComponent",
+                    "gridColumn": 12
+                },
+                {
+                    "componentName": "ContentFooterComponent",
+                    "gridColumn": 12
+                },
+                {
+                    "componentName": "CopyrightComponent",
+                    "gridColumn": 12
+                },
+                {
+                    "componentName": "MaintenanceComponent",
+                    "gridColumn": 12
+                }
+            ],
+            "compactView": [
+                {
+                    "componentName": "FooterLinkComponent",
+                    "gridColumn": 12
+                },
+                {
+                    "componentName": "FooterDisclaimerComponent",
+                    "gridColumn": 12
+                },
+                {
+                    "componentName": "CookieAndLicenseComponent",
+                    "gridColumn": 12
+                },
+                {
+                    "componentName": "MaintenanceComponent",
+                    "gridColumn": 12
+                },
+                {
+                    "componentName": "SalesForceChatWigetComponent",
+                    "gridColumn": 12
+                }
+            ]
+        },
+        "compactViewNotify": {
+            "title": "Compact Asian View is here!",
+            "content": "COMPACT_VIEW_NOTIFY"
+        },
+        "cssFiles": [
+            {
+                "pa": "esthardsk/css/compact/pa.min.css"
+            }
+        ],
+        "cssFontFiles": [
+            {
+                "name": "esthardsk/fonts/skins/pa.css"
+            }
+        ],
+        "id": 1
+    },
+    "initDataForComps": [
+        {
+            "componentName": "OddsDelayBannerComponent",
+            "initialData": {
+                "oddsDelayBannerText": "DELAY_BANNER_TEXT_CASH"
+            }
+        },
+        {
+            "componentName": "RegionalComponent",
+            "initialData": {
+                "readOnlyRegionPages": [],
+                "mustLogin": true,
+                "viewSupports": [
+                    {
+                        "value": "asiaView",
+                        "title": "Asian View",
+                        "isVisible": true
+                    },
+                    {
+                        "value": "compactView",
+                        "title": "Compact View",
+                        "isVisible": true
+                    },
+                    {
+                        "value": "standardView",
+                        "title": "Standard View",
+                        "isVisible": true
+                    }
+                ],
+                "newViewSupports": [
+                    {
+                        "value": "asiaView",
+                        "title": "Asian View"
+                    },
+                    {
+                        "value": "compactView",
+                        "title": "Compact View"
+                    },
+                    {
+                        "value": "standardView",
+                        "title": "Standard View"
+                    },
+                    {
+                        "value": "europeView",
+                        "title": "Europe View"
+                    },
+                    {
+                        "value": "classicView",
+                        "title": "Classic View"
+                    }
+                ]
+            }
+        },
+        {
+            "componentName": "LoginModalComponent",
+            "initialData": {
+                "isSupportForgotUserInfo": true,
+                "isSupportSignUp": true
+            }
+        },
+        {
+            "componentName": "SettingsComponent",
+            "mustLogin": false,
+            "initialData": {
+                "menuItems": [
+                    {
+                        "mustLogin": false,
+                        "itemName": "mode",
+                        "mode": [
+                            "LIGHT",
+                            "DARK"
+                        ],
+                        "enableDisplayMode": true
+                    },
+                    {
+                        "mustLogin": true,
+                        "itemName": "view",
+                        "viewSupports": [
+                            {
+                                "value": "asiaView",
+                                "title": "Asia View"
+                            },
+                            {
+                                "value": "compactView",
+                                "title": "Compact View"
+                            },
+                            {
+                                "value": "standardView",
+                                "title": "Standard View"
+                            }
+                        ],
+                        "newViewSupports": [
+                            {
+                                "value": "asiaView",
+                                "title": "Asian View"
+                            },
+                            {
+                                "value": "compactView",
+                                "title": "Compact View"
+                            },
+                            {
+                                "value": "standardView",
+                                "title": "Standard View"
+                            },
+                            {
+                                "value": "europeView",
+                                "title": "Europe View"
+                            },
+                            {
+                                "value": "classicView",
+                                "title": "Classic View"
+                            }
+                        ]
+                    },
+                    {
+                        "mustLogin": false,
+                        "itemName": "locale",
+                        "langSupports": [
+                            "en_US",
+                            "zh_CN",
+                            "zh_TW",
+                            "id_ID",
+                            "vi_VN",
+                            "ja_JP",
+                            "ko_KR",
+                            "th_TH",
+                            "km_KH",
+                            "fr_FR",
+                            "de_DE",
+                            "es_ES",
+                            "he_IL",
+                            "pt_BR",
+                            "ru_RU",
+                            "tr_TR",
+                            "hi_IN"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "componentName": "LocaleComponent",
+            "initialData": {
+                "mustLogin": false,
+                "langSupports": [
+                    "en_US",
+                    "zh_CN",
+                    "zh_TW",
+                    "id_ID",
+                    "vi_VN",
+                    "ja_JP",
+                    "ko_KR",
+                    "th_TH",
+                    "km_KH",
+                    "fr_FR",
+                    "de_DE",
+                    "es_ES",
+                    "he_IL",
+                    "pt_BR",
+                    "ru_RU",
+                    "tr_TR",
+                    "hi_IN"
+                ]
+            }
+        },
+        {
+            "componentName": "LoginComponent",
+            "initialData": {
+                "mustLogin": false,
+                "isShowSignUp": true,
+                "isShowForgotLogin": true,
+                "isShowForgotPassword": true,
+                "isShowDepositInfo": true,
+                "isShowAccountInfoDetails": true
+            }
+        },
+        {
+            "componentName": "SwitchModeComponent",
+            "initialData": {
+                "mustLogin": false,
+                "mode": [
+                    "LIGHT",
+                    "DARK"
+                ],
+                "enableDisplayMode": true
+            }
+        },
+        {
+            "componentName": "ResultComponent",
+            "initialData": {
+                "mustLogin": true
+            }
+        },
+        {
+            "componentName": "HelpComponent",
+            "initialData": {
+                "mustLogin": false
+            }
+        },
+        {
+            "componentName": "TimezoneComponent",
+            "initialData": {
+                "mustLogin": true,
+                "dateTimeFormat": "DD MMM YYYY [GMT]Z HH:mm:ss"
+            }
+        },
+        {
+            "componentName": "NavigationComponent",
+            "initialData": {
+                "mustLogin": false,
+                "menus": {
+                    "compactView": [
+                        {
+                            "id": "sports",
+                            "name": "Sports",
+                            "iconClassName": "icon sport",
+                            "link": "/sports",
+                            "type": "link",
+                            "isRequiredView": "true",
+                            "submenus": [],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": "",
+                            "productCode": "SB"
+                        },
+                        {
+                            "id": "esports",
+                            "name": "Esports",
+                            "iconClassName": "icon e-sports",
+                            "link": "/sports/e-sports",
+                            "type": "link",
+                            "isRequiredView": "true",
+                            "subMenus": [],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": "",
+                            "productCode": "SB"
+                        },
+                        {
+                            "id": "esports-hub",
+                            "name": "Esports Hub",
+                            "iconClassName": "icon e-sports",
+                            "link": "/#",
+                            "type": "link",
+                            "isRequiredView": "true",
+                            "subMenus": [],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": "",
+                            "productCode": "SB",
+                            "isRedirect": true
+                        },
+                        {
+                            "id": "bet-builder",
+                            "name": "Bet Builder",
+                            "iconClassName": "icon bet-builder",
+                            "isRequiredView": "false",
+                            "link": "/bet-builder",
+                            "type": "link",
+                            "submenus": [],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": "",
+                            "productCode": "BB"
+                        },
+                        {
+                            "id": "live-casino",
+                            "isAsianLink": false,
+                            "name": "Live Casino",
+                            "iconClassName": "icon casino",
+                            "link": "/live-casino",
+                            "type": "link",
+                            "submenus": [],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": ""
+                        },
+                        {
+                            "id": "casino",
+                            "isAsianLink": false,
+                            "name": "Casino",
+                            "iconClassName": "icon game",
+                            "link": "/casino",
+                            "type": "link",
+                            "submenus": [],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": "",
+                            "className": "casino"
+                        },
+                        {
+                            "isAsianLink": false,
+                            "name": "Promotions",
+                            "id": "promotion",
+                            "iconClassName": "icon promotion",
+                            "link": "/promotion",
+                            "type": "link",
+                            "submenus": [],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": ""
+                        },
+                        {
+                            "isAsianLink": false,
+                            "name": "Prestige Club",
+                            "iconClassName": "icon prestige-club",
+                            "link": "/prestige-club",
+                            "className": "prestigeclub",
+                            "isRequiredVip": true,
+                            "id": "prestigeclub",
+                            "type": "link",
+                            "submenus": [],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": ""
+                        },
+                        {
+                            "isAsianLink": false,
+                            "name": "Silver Stakes",
+                            "id": "leaderboard",
+                            "iconClassName": "icon shootout-scoreboard",
+                            "link": "/silver-stakes",
+                            "className": "leaderboard",
+                            "type": "link",
+                            "submenus": [],
+                            "newItem": {
+                                "isNew": true,
+                                "color": ""
+                            },
+                            "textColor": ""
+                        },
+                        {
+                            "name": "Virtual Sports",
+                            "iconClassName": "icon virtualsport",
+                            "link": "/sports/vs",
+                            "type": "link",
+                            "subMenus": [],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": "",
+                            "className": "virtual-sports",
+                            "productCode": "VS",
+                            "mustLogin": false
+                        },
+                        {
+                            "name": "More",
+                            "id": "more-menu",
+                            "type": "menu",
+                            "iconClassName": "icon-arrow-down",
+                            "className": "more-menu",
+                            "submenus": [
+                                {
+                                    "isAsianLink": false,
+                                    "name": "Promotions",
+                                    "id": "promotion",
+                                    "iconClassName": "icon sub-promotion",
+                                    "link": "/promotion",
+                                    "subMenus": [],
+                                    "newItem": {
+                                        "isNew": false,
+                                        "color": ""
+                                    },
+                                    "textColor": "",
+                                    "productCode": "SB"
+                                }
+                            ],
+                            "newItem": {
+                                "isNew": false,
+                                "color": ""
+                            },
+                            "textColor": ""
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "componentName": "LogoComponent",
+            "initialData": {
+                "isAsianLink": false,
+                "logo": {
+                    "url": "/{lang}/{defaultView}/sports",
+                    "style": {
+                        "backgroundImage": "url('/esthardsk/images/pa/compact/pinnacle-logo.svg')",
+                        "height": "50px",
+                        "width": "auto",
+                        "backgroundSize": "contain",
+                        "backgroundPosition": "left",
+                        "backgroundRepeat": "no-repeat"
+                    }
+                },
+                "logoByLangs": [
+                    {
+                        "url": "/sports",
+                        "style": {
+                            "backgroundImage": "url('/esthardsk/images/pa/compact/logo-Pinnacle-Chinese.svg')",
+                            "height": "50px",
+                            "width": "auto",
+                            "backgroundSize": "contain",
+                            "backgroundPosition": "left",
+                            "backgroundRepeat": "no-repeat"
+                        },
+                        "langs": [
+                            "zh-tw",
+                            "zh-cn"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "componentName": "FooterLinkComponent",
+            "initialData": {
+                "cssType": "column",
+                "data": [
+                    {
+                        "title": "Products",
+                        "type": "groupLink",
+                        "items": [
+                            {
+                                "type": "link",
+                                "title": "Sportsbook",
+                                "blockId": "SB",
+                                "href": "/sports"
+                            },
+                            {
+                                "type": "link",
+                                "title": "Live Casino",
+                                "href": "/live-casino",
+                                "isAsianLink": true
+                            },
+                            {
+                                "type": "link",
+                                "title": "casinoMenuName",
+                                "href": "/casino",
+                                "isAsianLink": true
+                            }
+                        ]
+                    },
+                    {
+                        "title": "About Us",
+                        "type": "groupLink",
+                        "items": [
+                            {
+                                "type": "link",
+                                "title": "Pinnacle",
+                                "class": "cash-pl",
+                                "href": "#/",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": false,
+                                    "isCMSLink": true,
+                                    "url": "/"
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "title": "Affiliates",
+                                "href": "#/",
+                                "class": "cash-pl highlight",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": false,
+                                    "url": "/affiliate/web/register",
+                                    "isCMSLink": false
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "title": "B2B",
+                                "href": "#/",
+                                "class": "cash-pl b2b highlight",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": false,
+                                    "url": "http://www.pinnaclesolution.com/{lang}/",
+                                    "isCMSLink": false
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Help & Support",
+                        "type": "groupLink",
+                        "items": [
+                            {
+                                "type": "link",
+                                "title": "Betting Rules",
+                                "href": "#/",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": true,
+                                    "isCMSLink": true,
+                                    "url": "/help/bettingrules"
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "title": "Bets Offered",
+                                "href": "#/",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": true,
+                                    "isCMSLink": true,
+                                    "url": "/help/betsoffered"
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "title": "FAQ",
+                                "class": "cash-pl",
+                                "href": "#/",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": false,
+                                    "isHelpPageLink": true,
+                                    "url": ""
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "title": "Contact Us",
+                                "class": "cash-pl",
+                                "href": "#/",
+                                "action": {
+                                    "type": "openLink",
+                                    "isHelpPageLink": true,
+                                    "url": "#contact"
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "title": "Clear Cache",
+                                "href": "/esthardsk/resources/clear_cache.zip"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Policies",
+                        "type": "groupLink",
+                        "items": [
+                            {
+                                "type": "link",
+                                "title": "Terms & Conditions",
+                                "class": "cash-pl",
+                                "href": "#/terms-conditions/",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": false,
+                                    "isCMSLink": true,
+                                    "url": "/information/termsconditions"
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "title": "Terms & Conditions",
+                                "class": "credit-pl auth-inline",
+                                "href": "#/terms-conditions/",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": false,
+                                    "isCMSLink": true,
+                                    "url": "/terms-conditions"
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "title": "Responsible Gaming",
+                                "class": "cash-pl",
+                                "href": "#/responsible-gaming/",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": false,
+                                    "isCMSLink": true,
+                                    "url": "/information/responsiblegaming"
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "title": "Privacy Policy",
+                                "class": "cash-pl",
+                                "href": "#/privacy-policy/",
+                                "action": {
+                                    "type": "openLink",
+                                    "checkCredit": false,
+                                    "isCMSLink": true,
+                                    "url": "/information/privacypolicy"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "componentName": "FooterDisclaimerComponent",
+            "initialData": {
+                "logos": [
+                    {
+                        "id": "logo-sbc",
+                        "priority": 1
+                    },
+                    {
+                        "id": "logo-asia-gaming",
+                        "priority": 2
+                    },
+                    {
+                        "id": "logo-egr",
+                        "priority": 3
+                    }
+                ],
+                "licenseSealData": {
+                    "id": "apg-seal-container",
+                    "alt": "APG Seal Logo",
+                    "type": "apg-seal-container",
+                    "name": "apg-seal-container",
+                    "dataApgSealId": "48cbe5f8-1dbb-4470-846c-8699fd5f6466",
+                    "dataApgImageSize": "30",
+                    "dataApgImageType": "basic-small",
+                    "className": "apg-seal-container"
+                },
+                "responsibleGambling": {
+                    "icon": "logo-18plus",
+                    "content": "Gambling can be addictive. Please know your limits and gamble responsibly."
+                }
+            }
+        },
+        {
+            "componentName": "CookieAndLicenseComponent",
+            "initialData": {
+                "isEnableLicense": true,
+                "siteName": "Pinnacle",
+                "license": "FOOTER_LICENSE"
+            }
+        },
+        {
+            "componentName": "Announcements",
+            "initialData": {
+                "isEnableViewAll": true,
+                "link": "/account/{lang}/announcements"
+            }
+        },
+        {
+            "componentName": "LeftSideBarComponent",
+            "initialData": {
+                "sportTabs": [
+                    {
+                        "label": "Sports",
+                        "tabId": "SPORTS"
+                    },
+                    {
+                        "label": "Esports",
+                        "tabId": "ESPORTS"
+                    },
+                    {
+                        "label": "Virtual Sports",
+                        "tabId": "VIRTUAL_SPORTS"
+                    }
+                ],
+                "marketTabs": [
+                    {
+                        "label": "Live",
+                        "tabId": "LIVE"
+                    },
+                    {
+                        "label": "Today",
+                        "tabId": "TODAY"
+                    },
+                    {
+                        "label": "Early",
+                        "tabId": "EARLY"
+                    }
+                ],
+                "esportMarketTabs": [
+                    {
+                        "label": "Live",
+                        "tabId": "LIVE"
+                    },
+                    {
+                        "label": "Soon",
+                        "tabId": "TODAY"
+                    },
+                    {
+                        "label": "Pre-game",
+                        "tabId": "EARLY"
+                    }
+                ],
+                "selectionButtons": [
+                    {
+                        "label": "Bet Slip",
+                        "buttonId": "BET_SLIP"
+                    },
+                    {
+                        "label": "Pending Bets",
+                        "buttonId": "PENDING_BETS"
+                    },
+                    {
+                        "label": "All Events",
+                        "buttonId": "ALL_EVENTS"
+                    },
+                    {
+                        "label": "Top Leagues",
+                        "buttonId": "TOP_LEAGUES"
+                    },
+                    {
+                        "label": "Favourites",
+                        "buttonId": "MY_FAVOURITES"
+                    }
+                ],
+                "teaserBettingRules": "/{lang}/help/bettingrules#Teasers-Rules"
+            }
+        },
+        {
+            "componentName": "BannerScrollBarComponent",
+            "initialData": {
+                "isShowSideBannerCarouselComponent": true,
+                "bannerLeft": {
+                    "comps": [
+                        {
+                            "name": "image-left",
+                            "type": "icon",
+                            "neededAuth": true,
+                            "openNewWindow": true,
+                            "href": "/account/{lang}/deposit",
+                            "redirectUrl": "/{lang}/register",
+                            "langSupport": [
+                                "th"
+                            ]
+                        },
+                        {
+                            "name": "image-right",
+                            "type": "icon",
+                            "neededAuth": true,
+                            "openNewWindow": true,
+                            "href": "/account/{lang}/deposit",
+                            "redirectUrl": "/{lang}/register",
+                            "langSupport": [
+                                "th"
+                            ]
+                        }
+                    ]
+                },
+                "bannerRight": {
+                    "comps": [
+                        {
+                            "name": "liveCenter",
+                            "type": "sideBar",
+                            "desc": "Live Center",
+                            "neededAuth": true,
+                            "href": "/sports/lc"
+                        },
+                        {
+                            "name": "banking",
+                            "type": "sideBar",
+                            "desc": "Cashier",
+                            "neededAuth": true,
+                            "openNewWindow": true,
+                            "href": "/account/{lang}/deposit",
+                            "userType": [
+                                "CASH_PLAYER"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "componentName": "SalesForceChatWigetComponent",
+            "initialData": {
+                "langSupports": [
+                    {
+                        "lang": "th_TH",
+                        "auth": false
+                    },
+                    {
+                        "lang": "zh_CN",
+                        "auth": false
+                    }
+                ],
+                "env": "prod"
+            }
+        },
+        {
+            "componentName": "RightCasinoComponent",
+            "initialData": {
+                "casinoType": "CASINO_IFORIUM"
+            }
+        },
+        {
+            "componentName": "AccountSideBarComponent",
+            "initialData": {
+                "sideBarData": [
+                    {
+                        "id": "my-account-section",
+                        "header": "My account",
+                        "menuItems": [
+                            {
+                                "id": "personal-details",
+                                "iconClass": "personal-details",
+                                "text": "Personal Details"
+                            },
+                            {
+                                "id": "preferences",
+                                "iconClass": "preferences",
+                                "text": "Preferences"
+                            },
+                            {
+                                "id": "password-security",
+                                "iconClass": "password-security",
+                                "text": "Password and Security"
+                            },
+                            {
+                                "id": "statements",
+                                "iconClass": "statements",
+                                "text": "Statements"
+                            },
+                            {
+                                "id": "ata-transfers",
+                                "iconClass": "ata-transfers",
+                                "text": "Funds Transfer"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "bets",
+                        "header": "My bets",
+                        "menuItems": [
+                            {
+                                "id": "betting-history",
+                                "iconClass": "betting-history",
+                                "text": "Betting history"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "messages",
+                        "header": "Messages",
+                        "menuItems": [
+                            {
+                                "id": "inbox",
+                                "iconClass": "inbox",
+                                "text": "Inbox"
+                            },
+                            {
+                                "id": "announcements",
+                                "iconClass": "announcements",
+                                "text": "Announcements"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "cashier",
+                        "header": "Cashier",
+                        "menuItems": [
+                            {
+                                "id": "deposit",
+                                "iconClass": "deposit",
+                                "text": "Deposit"
+                            },
+                            {
+                                "id": "withdrawal",
+                                "iconClass": "withdraw",
+                                "text": "Withdrawal"
+                            },
+                            {
+                                "id": "transactions-history",
+                                "iconClass": "transactions-history",
+                                "text": "Transactions"
+                            },
+                            {
+                                "id": "my-payment-accounts",
+                                "iconClass": "my-payment-accounts",
+                                "text": "My Payment Accounts"
+                            },
+                            {
+                                "id": "my-bonus",
+                                "iconClass": "my-bonus",
+                                "text": "My Bonuses"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "responsible-gaming",
+                        "header": "Responsible gaming",
+                        "menuItems": [
+                            {
+                                "id": "self-exclusion-limit",
+                                "iconClass": "self-exclusion-limit",
+                                "text": "Self Exclusion & Limits"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "globalAttribute": {
+        "metaTitle": "Pinnacle",
+        "metaType": "website",
+        "metaImage": "",
+        "pageTitle": null,
+        "liveServerHost": "live.pinnacle888.com",
+        "brandName": "default",
+        "cmsDomain": "//www.pinnacle888.com/static/index.php",
+        "pbLiteURL": null,
+        "esportsLogoURL": "/static/images/cdn_files/esports/logo-{version}/",
+        "baseUrl": "http://www.pinnacle888.com",
+        "skinName": "default",
+        "blockLiveSports": "",
+        "brandDefaultView": "",
+        "playtechVirtualdatabase": "winforfun88",
+        "paymentMbUrl": "/payment/web/{locale}/deposit/mb-pin-pay",
+        "moreCasinoGames": 28,
+        "isSeamless": false,
+        "isB2B": false,
+        "isBrandOnlyEsport": false,
+        "isEnableLicenseSeal": true,
+        "enableLauchAGNewTab": 0,
+        "enableAnnouncement": true,
+        "marketStrategies": "CASH",
+        "mobileView": "/m/{locale}/asian",
+        "futureViewURL": "https://future.pinnacle888.com",
+        "bettingRulesUrlByBrand": "http://www.ps3838.com/static/index.php/{language}/help/bettingrules-{language}",
+        "bettingRulesEnableByBrand": false,
+        "asianViewURL": "https://www.pinnacle888.com",
+        "liveScoreNotifyUrl": "/livescore-notifier",
+        "gaWebId": "UA-54994299-3",
+        "fvURL": "",
+        "isEnableGaGtm": true,
+        "gtmWebId": "GTM-PSRW2G",
+        "isHideHeaderLanguageSelect": false,
+        "defaultGameIdGoldenRaceVs": null,
+        "enableGoldenRaceVs": true,
+        "isHideHeaderRegionSelect": false,
+        "isHideLanguageSelectMobile": false,
+        "themeDefaultB2BArcadia": "",
+        "isArcadia": false,
+        "isNGC": true,
+        "bannerCloudflareCachingUrl": null,
+        "enableCloudflareImgCaching": false,
+        "helpPageSupportingLanguages": "es_ES,en_US,id_ID,zh_TW,zh_CN,ko_KR,ja_JP,th_TH,vi_VN",
+        "helpPageUrl": "https://help.pinnacle888.com/s/?language={lang}",
+        "enableCompactViewNotify": true,
+        "langSupports": [
+            "en_US",
+            "zh_CN",
+            "zh_TW",
+            "id_ID",
+            "vi_VN",
+            "ja_JP",
+            "ko_KR",
+            "th_TH",
+            "km_KH",
+            "es_ES"
+        ],
+        "isBrandEnableLogoutOnArcadia": true,
+        "enableVsParlay": false,
+        "isBrandSpecifyOnlyEsport": false,
+        "isShowGradingUnit": true,
+        "isUseNewTennisLayout": true,
+        "isHideTennisMLMarket": false,
+        "brokerageBettingService": "",
+        "isEnableOldAsianView": true,
+        "isEnableOldEuroView": false,
+        "isEnableNewAsianView": true,
+        "isEnableClassicView": false,
+        "isEnableFutureView": true,
+        "isEnableTrustCodeValidation": false,
+        "checkBrandSettingLS": false,
+        "isEnableEsportsHub": true,
+        "esportsHubUrl": "https://future.pinnacle888.com/{locale}/esports-hub/",
+        "b2bEsportsHubUrl": "",
+        "isEnableOldEuroMobileView": false,
+        "racebookDomain": "https://racebook.pinnacle888.com",
+        "enableRacebookDomainConfig": true,
+        "hotJarId": "1646800",
+        "botManagementKey": "AN39-KSUX4",
+        "arcadiaCookieSuffix": "",
+        "checkProductStatusWhenAccess": false,
+        "enableThemesToggle": true,
+        "isWhiteLabel": false,
+        "periodsDisplayOddsPage": "{\"0\":[[0,[1]],[]],\"12\":[[0,[1,2,3]],[]],\"19\":[[0,[6]],[]],\"29\":[[],[[8,39,3,6,7],[4,5]]]}",
+        "dynamicParameterIframeUrl": "/dp-iframe/",
+        "directusToken": "tMgphegQmoX4bAeGMKdNqieNz3AOeUWs",
+        "directusLeaderboardTable": "member_campaign",
+        "enableLeaderboard": true,
+        "leaderboardCompactLeagueUrl": "/{lang}/leaderboard/soccer/2686",
+        "leaderboardFutureLeagueUrl": "/{lang}/soccer/fifa-world-cup/matchups",
+        "enableDynamicParameter": true,
+        "dynamicParameterTimeout": 5000,
+        "afrcExpriseTime": 30,
+        "isEnableSearchWager": true,
+        "isEnableSportsBetting": false,
+        "isEnableParlayHeaderPanelTab": true,
+        "enableNewBetslip": false,
+        "enableNewFilterDate": true,
+        "enableDarkModeForGuest": false,
+        "campaignId": 4,
+        "leaderBoardPathName": "/silver-stakes",
+        "logoDates": "{\"startDate\":\"2023-08-31T05:00:00Z\",\"endDate\":\"2024-02-29T05:00:00Z\"}",
+        "indicatorOddWSTimeout": 5000,
+        "mobileDefaultMarketEnable": false,
+        "newMessPopupEnabled": true,
+        "enableMFAMobileApp": true,
+        "enableMFAEmail": true,
+        "enablePostLogoutMessage": false,
+        "classicParlayForPeriodsEnabled": true,
+        "enableMFA": false,
+        "enableFeatureVIP": true,
+        "emailContact": {
+            "zh_TW": "ct@pinnacle888.com",
+            "ko_KR": "customerservice@pinnacle888.com",
+            "en_US": "customerservice@pinnacle888.com",
+            "id_ID": "customerservice@pinnacle888.com",
+            "es_ES": "customerservice@pinnacle888.com",
+            "vi_VN": "customerservice@pinnacle888.com",
+            "zh_CN": "cs@pinnacle888.com",
+            "km_KH": "customerservice@pinnacle888.com",
+            "th_TH": "thaisupport@pinnacle888.com",
+            "ja_JP": "customerservice@pinnacle888.com"
+        }
+    }
+}
