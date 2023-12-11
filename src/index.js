@@ -19,7 +19,7 @@ const Root = () => {
 
   useEffect(() => {
     if (themeName) {
-      setTheme(themeName)
+      setTheme(themeName);
     }
   }, [themeName]);
 
@@ -27,7 +27,9 @@ const Root = () => {
     () =>
       setTheme((prevTheme) => {
         if (!['default', 'dark'].includes(theme)) {
-          return prevTheme === theme ? getThemeName(theme, true) : theme
+          return prevTheme === theme
+            ? getThemeName(theme, true)
+            : theme;
         }
         return prevTheme === 'default' ? 'dark' : 'default'
       }),
