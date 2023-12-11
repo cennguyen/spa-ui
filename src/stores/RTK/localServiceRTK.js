@@ -6,8 +6,8 @@ export const localServices = createApi({
     reducerPath: LOCAL_PATH,
     baseQuery: axiosBaseQuery(LOCAL_PATH),
     endpoints: () => ({}),
-})
-    console.log(localServices)
+});
+
 const localApiQuery = localServices.injectEndpoints({
     endpoints: (builder) => ({
         getTemplateFromLocal: builder.query({
@@ -17,11 +17,9 @@ const localApiQuery = localServices.injectEndpoints({
             }),
         }),
     }),
-})
-
-console.log(localApiQuery,"debug");
+});
 
 export const {
     useGetTemplateFromLocalQuery,
     useGetMessagesByLocaleQuery
-} = localApiQuery
+} = localApiQuery;
