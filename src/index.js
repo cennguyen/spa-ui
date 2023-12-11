@@ -14,16 +14,16 @@ const Root = () => {
   const SKIN_DEFAULT = 'default'
   // Let update when updating template on Database
   // const SKIN_DEFAULT = process.env.NODE_ENV !== 'production' ? 'pa' : ''
-  
+
   const { data, isLoading, isError } = useGetTemplateQuery(SKIN_DEFAULT);
   const themeName = data?.globalAttribute?.themeName;
-  console.log(data,"Debug data");
-  const [theme, setTheme] = useState('default')
+  console.log(data, "Debug data");
+  const [theme, setTheme] = useState(SKIN_DEFAULT);
   // const [language, setLanguage] = useState(getLocale())
 
   useEffect(() => {
     if (themeName) {
-      setTheme(themeName)
+      setTheme(themeName);
     }
   }, [themeName]);
 
@@ -31,7 +31,9 @@ const Root = () => {
     () =>
       setTheme((prevTheme) => {
         if (!['default', 'dark'].includes(theme)) {
-          return prevTheme === theme ? getThemeName(theme, true) : theme
+          return prevTheme === theme
+            ? getThemeName(theme, true)
+            : theme;
         }
         return prevTheme === 'default' ? 'dark' : 'default'
       }),
