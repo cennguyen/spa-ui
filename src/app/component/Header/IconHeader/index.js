@@ -5,7 +5,6 @@ import {
     from "./styled";
 import withRouter from "../../../hook/withRouteCustome";
 const IconHeader = (props) => {
-    console.log(props, "debug props at icon");
     const redirectHomePageHandler = () => {
         props.router.navigate('/home');
     }
