@@ -12,7 +12,6 @@ import store from './stores/main'
 
 const Root = () => {
   const SKIN_DEFAULT = 'default'
-
   const { data, isLoading, isError } = useGetTemplateQuery(SKIN_DEFAULT);
   const themeName = data?.globalAttribute?.themeName;
   const [theme, setTheme] = useState('default');

@@ -1,5 +1,5 @@
 import { memo, useState } from "react";
-import { LoginHeaderContainer } from "./styled";
+import { BtnCustom, LoginHeaderContainer } from "./styled";
 import { InputStyled } from "../../../styles/baseStyled";
 
 const LoginHeader = () => {
@@ -25,8 +25,8 @@ const LoginHeader = () => {
 
             <label>Password</label>
             <InputStyled type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-            <button onClick={clearHandler}>Clear</button>
-            <button onClick={submitHandler}>Sign in</button>
+            <BtnCustom onClick={clearHandler}>Clear</BtnCustom>
+            <BtnCustom onClick={submitHandler}>Sign in</BtnCustom>
         </LoginHeaderContainer>
     );
 }
