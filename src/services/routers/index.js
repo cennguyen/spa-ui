@@ -8,6 +8,7 @@ import HomePage from '../../app/component/HomePage'
 import About from '../../app/component/BodyDynamic/screens/About'
 import Contact from '../../app/component/BodyDynamic/screens/Contact'
 import Redirect from '../../app/component/redirect'
+import Product from '../../app/component/BodyDynamic/screens/Product'
 
 const mainDynamicRender = (component) => {
     return <HomePage component={component} />
@@ -29,6 +30,7 @@ const router = createBrowserRouter(
                 />
                 <Route path='about' element={mainDynamicRender(<About/>)}/>
                 <Route path='contacts' element={mainDynamicRender(<Contact/>)}/>
+                <Route path='product' element={mainDynamicRender(<Product/>)}/>
             </Route>
             <Route
                 path=':lang'

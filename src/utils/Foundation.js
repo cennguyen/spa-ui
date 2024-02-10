@@ -8,5 +8,10 @@ export const dataRender = [
         id: 1,
         value: 'Contact',
         link: '/contacts'
-    }
+    },
+    {
+        id: 2,
+        value: 'Product',
+        link: '/product'
+    },
 ];
